@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(216, 229, 233);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.contant{
+    background-color: #fff;
+    width: 700px ;
+    height: 250px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 8px 20px ;
+    margin-top: 10%;
+
+}
+.contant .one{
+    height: 60px
+}
+.contant h3{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.contant p{
+    font-size: 14px;
+    margin-top: -10px;
+}
+.contant .two{
+    height: 80px;
+    display: grid;
+    grid-template-columns: .2fr  3fr 0.5fr;
+}
+.contant .two button{
+    background-color: #1a5be6e0;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding:  10px 15px;
+    margin-top: 15px;
+} 
+.contant i{
+    font-size: 30px;
+    margin: 12px  ;
+} 
+mark{
+    font-size: 13px;
+    background-color: rgb(222, 231, 235);
+}
+.contant .ic i{
+    font-size: 35px;
+    margin:10px ;
+} 
+
+

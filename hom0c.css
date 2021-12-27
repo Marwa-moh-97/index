@@ -1,0 +1,76 @@
+body{
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+p{
+    font-size: 16px;
+    text-align: center;
+}
+.parg{
+    margin-top: 40px;
+    text-align: center;
+}
+.parg p b{
+    font-size: 25px;
+}
+.parg p strong{
+    font-size: 35px;
+    font-weight: 800;
+}
+.parg p a{
+    text-decoration: none;
+}
+.form{
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid rgb(190, 176, 176);
+    border-radius: 35px;
+    padding: 30px;
+}
+.form label{
+    font-size: 18px;
+}
+.form input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 17px;
+}
+.form  a{
+    font-size: 14PX;
+    float: right;
+    text-decoration:none ;
+} 
+.form button{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(133, 137, 197);
+    background-color: #1642d1cb;
+    color: #fff;
+    font-size: 18PX;
+} 
+.form .icon{
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+}
+.form .icon i{
+    padding: 6px 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+} 
+.form .icon .fa-instagram{
+    color: #fff;
+    background-color: rgb(236, 73, 52);
+}
+.form .icon .fa-facebook{
+    color:#fff;
+    background-color:#1642d1cb;
+}
+.form .icon .fa-github{
+    color:#fff;
+    background: #000;;
+}
