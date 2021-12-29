@@ -1,72 +1,208 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-
-}
-h1{
-    position: absolute;
-    top: 40px;
-    left: 100px;
-}
-.tex{
-    position: absolute;
-    top: 80px ;  
-    left: 100px;
-    /* transform: translate(-80px,0px); */
-    border: 2px solid #27c49c;
-    border-radius: 15px;
-    height: 25px;
-    padding: 0px 10px;
-    width: 350px;
-}
-
-.box:hover > .tex{
-    width:300px;
-    padding: 0 10px;
-    
-}
-.box:hover > .btn{
+body{
     background-color: #fff;
-    color: #27c49c;
+  }
+  .container{
+      height: 500px;
+      width: 1100px;
+      margin: auto;
+      margin-top: 40px;
+      padding: 10px 20px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .container p b{
+      font-size: 25px;
+  }
+  .container .line{
+      width:1100px ;
+      display: grid;
+      grid-template-columns: 2fr 3fr 1fr 1fr
+  }
+  .container .line .box{
+      height: 30px;
+      width: 360px;
+      border-radius: 20px;
+      background-color:rgb(56, 168, 80);
+      padding:  2px;
+      margin-top: 1px;
+  }
+  .container .line .box input{
+      width: 320px;
+      height: 30px;
+      border: none;
+      background: none;
+      font-size: 15px;
+      border-radius: 50px;
+      /* line-height: 40px; */
+      padding: 5px; 
+      background: #fff;
+  }
+  .container .line .box input:hover{
+      border: 1px solid rgb(56, 168, 80)
+  }
+  .container .line .box a{
+  border: none;   
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .container .line select{
+      height: 30px;
+      width: 120px;
+      border-radius: 50px;
+      margin: 3px 8px;
+      border: 1px solid #ccc;
+      padding: 5px;
+  } 
+  .container .line button{
+      margin: 3px 8px;
+      background: #fff;
+      border: 1px solid rgb(223, 219, 219);
+      border-radius:50px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .container .line button i{
+        color: #000;
+        font-size: 14px;
+        float: left;
+    }
+  img{
+    width: 20%;
+    border-radius: 50%;
+    align-self: center;
 }
-
-.tex{ 
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    width: 310px;
-    height: 20px;
-    padding: 0;
-    color: #27c49c;
+  .container .tabel{
+      width: 1100px;
+      height: 370px;
+      border: 1px solid #ccc;
+      margin: 20px 1px;
+      border-radius: 5px;
+      background-color: #fff;
+      /* display: grid; */
+      /* grid-template-rows: fr 1fr 3fr 1fr; */
+      display: flex;
+  }
+  .container .tabel .main {
+    padding: 10px 5px;
+    background-color:rgb(222, 228, 228) ;
+    margin-top: 0px;
+    font-size: 14px;
+} 
+  .row1{
+      width: 350px;
+  }
+  .tabel .nam1{
+      /* height: 60px; */
+      margin-top:-14px ;
+      border-bottom:1px solid #ccc;
+      display: flex;
+  }
+.row1 h3{
+      font-size: 14px;
+      /* height: 20px; */
+  }
+.tabel .row1 span{
+      margin: 35px -125px;
+      font-size: 12px;
+      color: rgb(83, 82, 82);
+  }
+.row1 img{
+    margin: 10px;
+ }
+.tabel .nam2 {
+    /* height: 60px; */
+    /* margin-top:-10px ; */
+    border-bottom:1px solid #ccc;
+    display: flex;
+}
+.row1 .nam2 span{
+    margin-left: -70px ;
+}
+.tabel .nam3{
+    border-bottom:1px solid #ccc;
+    display: flex;
+}
+.row1 .nam3 span{
+    margin-left: -134px;
+}
+.tabel .nam4{
+    display: flex;
+}
+.row1 .nam4 span{
+    margin-left: -99px;
+}
+ .row2{
+      width: 250px;
+  }
+.row2 .parg{
+    border-bottom:1px solid #ccc;
+    /* padding: 5px; */
+    height: 68px;
     font-size: 16px;
-    /* transition: .4s; */
-    line-height: 40px;
 }
-.btn{
-    width: 35px;
-    height: 20px;
-    background-color: #27c49c;
-    color: #fff;
-    float: right;
-    height: 25px;
-    width: 30px;
-    border-radius: 40%;
-    /* padding: 0px 8px; */
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    text-decoration: none;
-    transition: 0.4s;
+.row2 #none, .row3 #none, .row4 #none{
+    border: none;
+}
+  .row3{
+      width: 200px;
+  }
+  .row3 .parg{
+    border-bottom:1px solid #ccc;
+    height: 68px;
+    font-size: 16px;
+}
+.row3 .parg .gree{
+    background-color: rgba(100, 214, 100, 0.795);
+}
+.row3 .parg .oringe{
+    background-color: rgba(240, 158, 8, 0.699);
+}
+.row3 .parg .pink{
+    background-color: rgba(247, 160, 189, 0.788);
+}
+  .row4{
+      width: 300px;
+  }
+  .row4 .lest{
+    border-bottom:1px solid #ccc;
+    font-size: 16px;
+    height: 68px;
+  }
+  .row4 button{
+      border: none;
+      background:none;
+      color: rgb(10, 10, 255);
+     float: right;
+     cursor: pointer;
+     margin-right:20px ;
+     margin-top: -30px;
+     font-weight: 700;
+     font-size: 15px;
+    }
+    .container .hedier{
+        display: grid;
+        grid-template-columns: 9fr 2fr 1fr;
+        /* height: 30PX; */
+        padding: 5px;
+        margin: -10px;
 
-}
-.box select{
-    width: 90px;
-    height: 25px;
-    border-radius: 9px;
-    float: right;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
+    }
+    .container .hedier .small{
+        background: #fff;
+        border: 1px solid rgb(223, 219, 219);
+        border-radius:50px;
+        font-weight: 700;
+        cursor: pointer;
+        margin: 10px 0px;
+    }
+ .container .hedier .big{
+        width: 170px;
+        background: #fff;
+        border: 1px solid rgb(223, 219, 219);
+        border-radius:50px;
+        font-weight: 700;
+        cursor: pointer;
+        margin: 10px 10px;
+    } 
+  
